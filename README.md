@@ -1,6 +1,6 @@
 # PERCO
 
-This code could be used to retreive data concerning PERCO funds from natixis web services and produce charts. This charts are scp to a web server
+This code could be used to retreive data concerning PERCO funds from a bank web services and produce charts. This charts are scp to a web server
 
 ## Installation
 
