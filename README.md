@@ -10,9 +10,9 @@ This code could be used to retreive data concerning PERCO funds from natixis web
 3. Activate the virtual env with 
     > $ source ~/perco/bin/activate
 4. Install required modules with :
-    > (perco)$ pip install --upgrade pip
-    > (perco)$ pip install -r requirements.txt
-    > (perco)$ deactivate
+    > (perco)$ pip install --upgrade pip   
+    > (perco)$ pip install -r requirements.txt   
+    > (perco)$ deactivate   
 5. Copy the Config.py.example in Config.py 
     > cp Config.py.example Config.py
 
@@ -52,7 +52,7 @@ In this file, we must setup some parameters :
 
 This is a three stage process :
 1. check if funds.csv ans suivi_fonds.csv are up to date with this two command line :
-    > $ cat in/funds.csv
+    > $ cat in/funds.csv    
     > $ tail -1 in/*suivi_fonds.csv
 2. retreive bearer (bearer_string) from natixis auth
 3. launch ./Wallet.py like above
