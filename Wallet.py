@@ -7,7 +7,7 @@ from paramiko import SSHClient
 from scp import SCPClient
 
 from Fund import Fund
-from Config import LOGIN, PASWORD, SERVER, S_PATH
+from Config import LOGIN, PASSWORD, SERVER, S_PATH
 
 class Wallet:
     def __init__(self, file, bearer, verbose ) :

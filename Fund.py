@@ -26,7 +26,7 @@ class Fund:
         headers = { 'Authorization': f"Bearer {token}", 'Accept': 'text/csv' }
         end = date.today()
         start = f"{end.year - 1}-{end.month:02d}-{end.day:02d}"
-        url = DATA_SERVER_STRING.format( fund = self.code, from = start, to = end )
+        url = DATA_SERVER_STRING.format( fund = self.code, from_date = start, to_date = end )
         try:
             r = requests.get( url, headers=headers )
             r.raise_for_status()

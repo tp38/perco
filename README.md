@@ -45,7 +45,7 @@ In this file, we must setup some parameters :
 - S_PATH : the path on SERVER where to upload files (LOGIN/PASSWORD must have write access on this directory)
 - LOGIN : the account use to upload files
 - PASSWORD : the password use to upload
-- DATA_SERVER_STRING : the URL use to download funds data files. This string must contain three parameterized fields named {fund} for fund code, {from} for start date and {to} for end date (see python string format for more explaination ) 
+- DATA_SERVER_STRING : the URL use to download funds data files. This string must contain three parameterized fields named `{fund}` for fund code, `{from_date}` for start date and `{to_date}` for end date (see python string format for more explaination ) 
 
 
 ## Usage
