@@ -1,0 +1,5 @@
+SERVER="my_prefered_server"
+S_PATH="path_to_perco_web_directory"
+LOGIN="my_login"
+PASSWORD="my_secret_password"
+DATA_SERVER_STRING="url_where_we_can_download_{fund}_data_{from}-date_{to}-date_(see_README_file)"

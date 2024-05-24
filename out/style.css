@@ -1,0 +1,22 @@
+h2 {
+  color: #080d93;
+  font-weight: bold;
+}
+
+h3.my {
+  color: #450893;
+  margin: 15;
+  padding: 15;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
